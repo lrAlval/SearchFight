@@ -13,6 +13,21 @@ Google winner: .net
 MSN Search winner: java
 Total winner: .net
 ```
+### Prerequisites
+
+Because it is using the google search engine and bing , the application needs 3 keys to work :
+
+* Google API Key
+* Google Custom Engine Key
+* Bing Search Engine Key
+
+Once you have it , Just Update the following keys in the App.Config
+
+```
+    <add key="GoogleAPIKey" value="YOUR_GOOGLE_API_KEY_HERE"/>
+    <add key="GoogleCEKey" value="YOUR_GOOGLE_CUSTOM_ENGINE_KEY_HERE"/>
+    <add key="BingKey" value="YOUR_BING_API_KEY_HERE"/>
+```
 
 ## Deployment
 
