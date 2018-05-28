@@ -1,4 +1,4 @@
-# SearchFight :airplane:
+# SearchFight :mag_right:
 
 Simple Console App that queries search engines and compares how many results they return, for Example:
 
@@ -28,6 +28,10 @@ Once you have it , Just Update the following keys in the App.Config
     <add key="GoogleCEKey" value="YOUR_GOOGLE_CUSTOM_ENGINE_KEY_HERE"/>
     <add key="BingKey" value="YOUR_BING_API_KEY_HERE"/>
 ```
+
+## Wanna add another search engine ?
+
+Just add another client class and implement ISearchClient , and thats it ! 
 
 ## Deployment
 
