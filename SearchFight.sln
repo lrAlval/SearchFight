@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchFight", "SearchFight\SearchFight.csproj", "{A829D133-C40B-4CE1-B9E5-87E19D40C226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchFight.Common", "SearchFight.Common\SearchFight.Common.csproj", "{F429E749-FD42-409D-926D-D27AE28C0016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchFight.Services", "SearchFight.Services\SearchFight.Services.csproj", "{92CAEC50-2154-4FA9-964C-E43533D00AC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchFight.Logic", "SearchFight.Logic\SearchFight.Logic.csproj", "{2DD84189-129B-4281-856D-C6613C6E0D21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchFight.Tests", "SearchFight.Tests\SearchFight.Tests.csproj", "{65B7209A-369A-4CC7-8DB1-EC8AA00E8506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchFight.Infrastructure", "SearchFight.Infrastructure\SearchFight.Infrastructure.csproj", "{DCA1350D-6DF5-4E78-B8F2-2095456A5A03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A829D133-C40B-4CE1-B9E5-87E19D40C226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A829D133-C40B-4CE1-B9E5-87E19D40C226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A829D133-C40B-4CE1-B9E5-87E19D40C226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A829D133-C40B-4CE1-B9E5-87E19D40C226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F429E749-FD42-409D-926D-D27AE28C0016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F429E749-FD42-409D-926D-D27AE28C0016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F429E749-FD42-409D-926D-D27AE28C0016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F429E749-FD42-409D-926D-D27AE28C0016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CAEC50-2154-4FA9-964C-E43533D00AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CAEC50-2154-4FA9-964C-E43533D00AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CAEC50-2154-4FA9-964C-E43533D00AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CAEC50-2154-4FA9-964C-E43533D00AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD84189-129B-4281-856D-C6613C6E0D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD84189-129B-4281-856D-C6613C6E0D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD84189-129B-4281-856D-C6613C6E0D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD84189-129B-4281-856D-C6613C6E0D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65B7209A-369A-4CC7-8DB1-EC8AA00E8506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B7209A-369A-4CC7-8DB1-EC8AA00E8506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B7209A-369A-4CC7-8DB1-EC8AA00E8506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B7209A-369A-4CC7-8DB1-EC8AA00E8506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA1350D-6DF5-4E78-B8F2-2095456A5A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA1350D-6DF5-4E78-B8F2-2095456A5A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA1350D-6DF5-4E78-B8F2-2095456A5A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA1350D-6DF5-4E78-B8F2-2095456A5A03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEFFE4BB-3358-426C-98F2-032ABAAA8055}
+	EndGlobalSection
+EndGlobal
